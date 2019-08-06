@@ -1,0 +1,37 @@
+# Welcome to Jekyll!
+
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+
+# Site settings
+title: High
+email: oramartos_21@hotmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Blog para tentar compartilhar o conhecimento que venho adiquirindo ao longo
+  da minha vida..
+baseurl: "/high-blog" # the subpath of your site, e.g. /blog http://martoso.com.br/blog
+url: "http://www.martoso.com.br" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: Oracy_Martos
+github_username: Oracy
+
+# Build settings
+markdown: kramdown
+comments: true
+# permalink: /:categories/:year/:month/:day/:title
+permalink: /:title
+theme: minima
+plugins:
+  - jekyll-feed
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
